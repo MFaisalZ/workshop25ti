@@ -47,6 +47,8 @@ jobs:
       uses: amondnet/vercel-action@v25
       with:
         vercel-args: '--prod'
+        github-comment: true
+        github-deployment: false
         vercel-token: ${{ secrets.hE8wJU6RqIxIeMG8oMUmF75W }}
         vercel-org-id: ${{ secrets.team_3gxim5BhJt4qgIaaslu0MueW }}
         vercel-project-id: ${{ secrets.prj_fZKANMjmWxSVXJe4TzE77wjOvP1N }}
